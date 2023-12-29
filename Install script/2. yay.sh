@@ -3,6 +3,9 @@
 # Install Yay from the AUR
 git clone https://aur.archlinux.org/yay.git ~/yay && cd ~/yay && makepkg -si
 
+cd ~
+rm -rf yay
+
 # Generate Yay database
 yay -Y --gendb
 
