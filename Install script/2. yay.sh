@@ -4,7 +4,7 @@
 git clone https://aur.archlinux.org/yay.git ~/yay && cd ~/yay && makepkg -si
 
 cd ~
-rm -rf yay
+rm -rf ~/yay
 
 # Generate Yay database
 yay -Y --gendb
